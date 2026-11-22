@@ -1,0 +1,20 @@
+name: FunnyTrans 反馈 · Feedback
+description: 报告问题或提出建议 · Report a problem or suggest an improvement.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这里的反馈会公开显示。订单凭据、个人信息和私人截图请发到[支持邮箱](mailto:guo2184@icloud.com)。
+        Issues are public. Please [email the developer](mailto:guo2184@icloud.com) for private support.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 问题或建议 · Problem or suggestion
+      description: 遇到问题时，请说明操作步骤、预期结果和实际结果。提建议时，请描述你想完成的事情。 For a bug, share what you did and what happened. For a suggestion, describe what you would like to do.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App 与 macOS 版本 · App and macOS versions
+      description: 如果知道版本号，请在这里填写。 Include the versions if known.
